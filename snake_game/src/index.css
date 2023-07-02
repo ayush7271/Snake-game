@@ -3,11 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 768px) {
+@media (max-width:999px) {
   .progress {
     margin-top: 50%;
 
     width: 70%;
+    margin-left: 100px;
   }
   .game-container {
     display: none;
